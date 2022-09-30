@@ -1,0 +1,10 @@
+# Ucus secim ekranin geldigi kontrol edilir
+* "5" saniye bekle
+* "com.m.qr:id/booking_activity_conversational_message" ID'li element "Select your departure" değerini içeriyor mu kontrol et
+
+# Rastgele bir ucus secilir
+* "com.m.qr:id/rvmp_item_search_result_root_view" ID'li elementler arasında rasgele bir tanesine tıkla
+
+# Economy Class secenegine tiklanir
+* "com.m.qr:id/rvmp_activity_flight_details_select_button" ID'li elementi bul ve tikla
+* "10" saniye bekle

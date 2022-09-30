@@ -1,0 +1,14 @@
+# Uygulamanin acildigi kontrol edilir
+* "3" saniye bekle
+* "com.m.qr:id/skip_button" ID'li element "Skip" değerini içeriyor mu kontrol et
+
+# Karsilama Ekrani Skip secenegi ile gecilir
+* "com.m.qr:id/skip_button" ID'li elementi bul ve tikla
+* "2" saniye bekle
+* "com.m.qr:id/onboarding_skip_button" ID'li elementi bul ve tikla
+* "3" saniye bekle
+* "com.m.qr:id/push_consent_allow" ID'li elementi bul ve tikla
+
+# Alt menüden Book tabina gecis yapilir.
+* "2" saniye bekle
+* "com.m.qr:id/nav_menu_book" ID'li elementi bul ve tikla

@@ -1,0 +1,21 @@
+# Seyahat tipi olarak One Way secilir
+* "//*[@content-desc='One-way']" Xpath'li elementi bul ve tikla
+
+# Kalkis havaalani olarak Berlin secilir
+* "com.m.qr:id/rvmp_fragment_rtow_flight_selection_origin_holder" ID'li elementi bul ve tikla
+* "2" saniye bekle
+* "com.m.qr:id/rvmp_fragment_ond_selection_filter_edittext" ID'li elementi bul ve "Berlin" değerini yaz
+* "5" saniye bekle
+* "(//*[@resource-id='com.m.qr:id/rvmp_item_ond_selection_list_text_view_holder'])[1]" Xpath'li elementi bul ve tikla
+
+# Varis havaalani olarak Istanbul secilir
+* "com.m.qr:id/rvmp_fragment_rtow_flight_selection_destination_holder" ID'li elementi bul ve tikla
+* "2" saniye bekle
+* "com.m.qr:id/rvmp_fragment_ond_selection_filter_edittext" ID'li elementi bul ve "Istanbul" değerini yaz
+* "5" saniye bekle
+* "(//*[@resource-id='com.m.qr:id/rvmp_item_ond_selection_list_text_view_holder'])[2]" Xpath'li elementi bul ve tikla
+
+//# Gidis tarihi secilir
+
+# Arama butonuna tiklanir
+* "com.m.qr:id/rvmp_booking_search_flights_button" ID'li elementi bul ve tikla
